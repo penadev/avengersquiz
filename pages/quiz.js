@@ -1,4 +1,3 @@
-/* eslint-disable func-names */
 import React from 'react';
 import styled from 'styled-components';
 import Head from 'next/head';
@@ -10,8 +9,6 @@ import QuizLogo from '../src/components/QuizLogo';
 import QuizBackground from '../src/components/QuizBackground';
 import Footer from '../src/components/Footer';
 import GitHubCorner from '../src/components/GitHubCorner';
-import Button from '../src/components/Button';
-import Input from '../src/components/Input';
 
 export const QuizContainer = styled.div`
   width: 100%;
@@ -24,19 +21,15 @@ export const QuizContainer = styled.div`
   }
 `;
 
-export default function Home() {
-  const router = useRouter();
-  const [name, setName] = React.useState('');
+export default function QuizPage() {
+  const route = useRouter();
 
-  const handleName = (event) => {
-    setName(event.target.value);
-  };
+  const userName = route.query.name;
 
   return (
     <QuizBackground backgroundImage={db.bg}>
       <Head>
-        <title>Quiz Alura - Imersão React</title>
-        <meta property="og:image" content={db.bg} />
+        <title>Quiz Alura - Avengers</title>
       </Head>
       <QuizContainer>
         <QuizLogo />
@@ -45,21 +38,8 @@ export default function Home() {
             <h1>{db.title}</h1>
           </Widget.Header>
           <Widget.Content>
-            <p>{db.description}</p>
-            <form onSubmit={function (event) {
-              event.preventDefault();
-              router.push(`/quiz?name=${name}`);
-            }}
-            >
-              <Input
-                onChange={handleName}
-                placeholder="Nome"
-                value={name}
-              />
-              <Button type="submit" disabled={name.length === 0}>
-                Jogar
-              </Button>
-            </form>
+            {userName}
+            , vamos iniciar o quiz?
           </Widget.Content>
         </Widget>
 
