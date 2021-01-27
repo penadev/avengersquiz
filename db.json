@@ -4,25 +4,61 @@
     "description": "Teste os seus conhecimentos sobre os Avengers!!!",
     "questions": [
       {
-        "image": "https://media.giphy.com/media/xUOxf3yDKCuwpOlT3i/giphy.gif",
-        "title": "Como fazer um seletor por id via CSS?",
-        "description": "Essa é pra aquecer",
+        "image": "https://media.giphy.com/media/eMVmYBj2OkoQ35sXHm/giphy.gif",
+        "title": "Qual o personagem mais antigo dos Vingadores?",
+        "description": "Só pra quebrar o gelo! ;)",
         "answer": 2,
         "alternatives": [
-          ".elemento",
-          "*elemento",
-          "#elemento",
-          "%elemento"
+          "Hulk",
+          "Thor",
+          "Capitão América",
+          "Vespa"
         ]
       },
       {
-        "image": "https://media.giphy.com/media/13FrpeVH09Zrb2/giphy.gif",
-        "title": "Como fazer um background gradiente com css?",
-        "description": "Faz tempo em haha",
-        "answer": 0,
+        "image": "https://media.giphy.com/media/PpeGK6edBWAxi/giphy.gif",
+        "title": "Qual o criador dos Vingadores?",
+        "description": "A resposta Stan logo a Lee! :)",
+        "answer": 1,
         "alternatives": [
-           "background: linear-gradient(#e66465, #9198e5);",
-           "background: gradient(#e66465, #9198e5);"
+           "Bruce Lee",
+           "Stan Lee",
+           "Steven Spielberg",
+           "Quentin Tarantino"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/13kajTax0GCg0g/giphy.gif",
+        "title": "Quais vingadores ficaram do lado do Homem de Ferro no filme Capitão América: Guerra Civil?",
+        "description": "Agora já ta ficando mais difícil!",
+        "answer": 1,
+        "alternatives": [
+           "Feiticeira Escarlate, Viúva Negra e Falcão",
+           "Pantera Negra, Viúva Negra e Homem Aranha",
+           "Gavião Arqueiro, Visão e Máquina de Compbate"
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/IeR0ws3zWuQiWCUxpg/giphy.gif",
+        "title": "Qual é a condição para que alguém consiga levantar o martelo de Thor, o Mjolnir?",
+        "description": "Essa tenho certeza que você é digno de responder!",
+        "answer": 1,
+        "alternatives": [
+           "Apenas os membros das família de Thor!",
+           "Só quem é digno mesmo!",
+           "Só os mais fortes conseguem."
+        ]
+      },
+      {
+        "image": "https://media.giphy.com/media/xUOxeZn47mrdabqDNC/giphy.gif",
+        "title": "Quais são as joias do infinito que compõe a manopla usada por Thanos?",
+        "description": "Vai lá sabidão!",
+        "answer": 1,
+        "alternatives": [
+           "Tempo, Invisibilidade, Infinito, Alma, Espaço e Conhecimento",
+           "Espaço, Realidade, Poder, Mente, Tempo e Alma",
+           "Realidade, Força, Vida, Esperança, Espaço e Tempo",
+           "Mente, Amor, Imortalidade, Realidade, Tempo e Alma"
         ]
       }
     ],
