@@ -46,6 +46,20 @@ Widget.Content = styled.div`
   }
 `;
 
+Widget.Results = styled.div`
+  padding: 5px 5px 5px 5px;
+  & > *:first-child {
+    margin-top: 0;
+  }
+  & > *:last-child {
+    margin-bottom: 0;
+  }
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+`;
+
 Widget.Topic = styled.a`
   outline: 0;
   text-decoration: none;
