@@ -31,11 +31,11 @@
         "image": "https://media.giphy.com/media/13kajTax0GCg0g/giphy.gif",
         "title": "Quais vingadores ficaram do lado do Homem de Ferro no filme Capitão América: Guerra Civil?",
         "description": "Agora já ta ficando mais difícil!",
-        "answer": 1,
+        "answer": 2,
         "alternatives": [
            "Feiticeira Escarlate, Viúva Negra e Falcão",
-           "Pantera Negra, Viúva Negra e Homem Aranha",
-           "Gavião Arqueiro, Visão e Máquina de Compbate"
+           "Gavião Arqueiro, Visão e Máquina de Compbate",
+           "Pantera Negra, Viúva Negra e Homem Aranha"
         ]
       },
       {
@@ -53,10 +53,10 @@
         "image": "https://media.giphy.com/media/xUOxeZn47mrdabqDNC/giphy.gif",
         "title": "Quais são as joias do infinito que compõe a manopla usada por Thanos?",
         "description": "Vai lá sabidão!",
-        "answer": 1,
+        "answer": 0,
         "alternatives": [
-           "Tempo, Invisibilidade, Infinito, Alma, Espaço e Conhecimento",
            "Espaço, Realidade, Poder, Mente, Tempo e Alma",
+           "Tempo, Invisibilidade, Infinito, Alma, Espaço e Conhecimento",           
            "Realidade, Força, Vida, Esperança, Espaço e Tempo",
            "Mente, Amor, Imortalidade, Realidade, Tempo e Alma"
         ]
